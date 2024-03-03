@@ -682,7 +682,7 @@ windowDef Desktop
 			visible	1
 			rect	0,0,640,480
 			background	"gfx/guis/common/static1"
-			matcolor	0.894,0.917,0.815,0.024
+			matcolor	0.890,0.913,0.811,0.0235
 			matscalex	-1
 		}
 		windowDef grad
@@ -690,15 +690,15 @@ windowDef Desktop
 			rect	0,0,640,480
 			visible	1
 			background	"gfx/guis/mainmenu/bg_darkgrad"
-			matcolor	0.501,0.250,0,1
-			backcolor	1,0.490,0.305,1
+			matcolor	0,0,0.250,1
+			backcolor	0,0,0.494,1
 		}
 		windowDef screen
 		{
 			rect	0,24,640,480
 			visible	1
 			background	"gfx/guis/mainmenu/screen"
-			matcolor	1,0.501,0,1
+			matcolor	0,0.250,0.501,1
 		}
 		windowDef screen2
 		{
@@ -811,7 +811,7 @@ windowDef Desktop
 				rect	380,125,260,260
 				visible	1
 				background	"gfx/guis/mainmenu/q4logo"
-				matcolor	1,1,1,0.603
+				matcolor	1,1,1,0.6
 			}
 			windowDef q4text
 			{
@@ -862,28 +862,28 @@ windowDef Desktop
 				rect	32,221,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b2_corner
 			{
 				rect	32,251,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b3_corner
 			{
 				rect	32,281,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b4_corner
 			{
 				rect	32,311,12,12
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b9_corner
 			{
@@ -896,7 +896,7 @@ windowDef Desktop
 			{
 				rect	44,214,314,23
 				visible	1
-				forecolor	0,0,1,0.8
+				forecolor	1,1,1,0.8
 				text	"#str_200000"
 				textscale	0.33
 				font	"fonts/marine"
@@ -905,7 +905,7 @@ windowDef Desktop
 			{
 				rect	44,244,314,23
 				visible	1
-				forecolor	0,0,1,0.8
+				forecolor	1,1,1,0.8
 				text	"#str_200001"
 				textscale	0.33
 				font	"fonts/marine"
@@ -914,7 +914,7 @@ windowDef Desktop
 			{
 				rect	44,274,314,23
 				visible	1
-				forecolor	0,0,1,0.8
+				forecolor	1,1,1,0.8
 				text	"#str_200002"
 				textscale	0.33
 				font	"fonts/marine"
@@ -923,7 +923,7 @@ windowDef Desktop
 			{
 				rect	44,304,314,23
 				visible	1
-				forecolor	0,0,1,0.8
+				forecolor	1,1,1,0.8
 				text	"#str_200009"
 				textscale	0.33
 				font	"fonts/marine"
@@ -949,36 +949,36 @@ windowDef Desktop
 				rect	32,408,9,9
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b6_corner
 			{
 				rect	100,408,9,9
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b7_corner
 			{
 				rect	192,408,9,9
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_b8_corner
 			{
 				rect	279,408,9,9
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 			windowDef main_t_b5
 			{
 				rect	39,403,44,17
 				visible	1
-				forecolor	1,1,1,0.5
+				forecolor	1,1,1,0.498
 				text	"#str_200010"
-				textscale	.22
+				textscale	0.22
 				font	"fonts/marine"
 			}
 			windowDef main_t_b6
@@ -1043,7 +1043,7 @@ windowDef Desktop
 				visible	1
 				forecolor	1,1,1,0
 				text	"#str_200000"
-				textscale	.25
+				textscale	0.25
 				font	"fonts/marine"
 			}
 			windowDef new_b1
@@ -1163,7 +1163,7 @@ windowDef Desktop
 				rect	248,232,18,18
 				visible	1
 				background	"gfx/guis/mainmenu/corner"
-				matcolor	1,0.501,0,0.4
+				matcolor	1,1,1,0.4
 			}
 		}
 		windowDef p_savegame
