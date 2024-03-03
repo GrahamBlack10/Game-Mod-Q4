@@ -161,7 +161,7 @@ entityDef weapon_dmg
 	"net_syncPhysics"			"1"	
 }
 
-entityDef weapon_dmg_mp
+entityDef Super3
 {
 	"inherit"				"weapon_dmg"
   	"def_mod1"				""
@@ -170,8 +170,8 @@ entityDef weapon_dmg_mp
 	"def_projectile"			"projectile_dmg_mp"
 	"inv_icon"				"gfx/guis/hud/icons/item_darkmatter_colored"
 	"mtr_simple_icon"				"simpleicons/item_darkmatter_colored"
-	"inv_start_ammo_dmg"			"3"
-	"triggerSize"				"32"
+	"inv_start_ammo_dmg"			"1"
+	"triggerSize"				"70"
 	
 	"muzzle_kick_time"			"0"
 	"muzzle_kick_maxtime"			"0"
@@ -337,7 +337,7 @@ entityDef projectile_dmg
 
 entityDef damage_dmg_mp
 {
-	"damage"					"200"
+	"damage"					"5000"
 	"gib"						"1"
 
 	/*
@@ -359,8 +359,8 @@ entityDef damage_dmg_mp
 
 entityDef damage_dmg_splash_mp
 {
-	"damage"					"10"
-	"radius"					"10"
+	"damage"					"300"
+	"radius"					"100"
 	"gib"						"1"
 
 	/*
@@ -386,8 +386,8 @@ entityDef damage_dmg_splash_mp
 entityDef projectile_dmg_mp
 {
 	"spawnclass"				"idProjectile"
-	"mins"						"-.5 -.5 -.5"
-	"maxs"						".5 .5 .5"
+	"mins"						"-1 -1 -1"
+	"maxs"						"1 1 1"
 	"cone"						"2"
 	"noshadows"					"1"
 	"clipmask_largeshot"		"1"
@@ -396,7 +396,7 @@ entityDef projectile_dmg_mp
 	"def_splash_damage"			"damage_dmg_splash_mp"
 																											
 	"speed"						"350"
-	"fuse"						"10"
+	"fuse"						"15"
 	"push"						"48000"
 	
 	"predictTime"				"50"

@@ -587,7 +587,7 @@ windowDef Desktop
 			rect	13,420,125,59
 			visible	1
 			background	"gfx/guis/hud/valbar"
-			matcolor	0.701,0.815,0.431,0.2
+			matcolor	1,1,1,0.2
 			shear	0,-.22
 		}
 		windowDef p_ammo_val
@@ -609,7 +609,7 @@ windowDef Desktop
 			rect	11,435,106,26
 			visible	"desktop::showGunInfo" != 0
 			background	"gui::weapicon"
-			matcolor	0.780,0.741,0.470,0.4
+			matcolor	0,0,0,0.4
 		}
 		windowDef ammo_amount
 		{
@@ -654,7 +654,7 @@ windowDef Desktop
 	}
 	windowDef p_health
 	{
-		rect	0,0,640,480
+		rect	79,-383,730,585
 		visible	("gui::mp" == 0 )
 		windowDef health_backbar
 		{
@@ -738,7 +738,7 @@ windowDef Desktop
 	}
 	windowDef p_armor
 	{
-		rect	0,0,640,480
+		rect	-184,-383,640,480
 		visible	("gui::player_armor" > 0 && "gui::mp" == 0 )
 		windowDef armor_backbar
 		{
@@ -1267,6 +1267,7 @@ windowDef Desktop
 		windowDef ws_weapon0
 		{
 			rect	("desktop::switchLeft" + "gui::weapon0_index" * 30),20,26,26
+			visible	1
 			windowDef ws_weapon0_bg
 			{
 				rect	0,0,26,26
@@ -1599,6 +1600,9 @@ windowDef Desktop
 	{
 		rect	0,0,640,480
 		visible	1
+		forecolor	1,1,1,1
+		text	""
+		textscale	1
 		windowDef radio_backbar
 		{
 			rect	520,5,113,28
@@ -1629,10 +1633,10 @@ windowDef Desktop
 		}
 		windowDef waveform
 		{
-			rect	513,7,41,25
+			rect	510,7,41,25
 			visible	1
 			background	"gfx/guis/hud/waveform"
-			matcolor	1,0.5,0,1
+			matcolor	1,1,1,1
 		}
 		windowDef rhino_backbar
 		{
@@ -2089,7 +2093,7 @@ windowDef Desktop
 	}
 	windowDef Bossbar
 	{
-		rect	-20,0,640,480
+		rect	-2,336,640,480
 		visible	0
 		windowDef boss_backbar
 		{
@@ -2280,7 +2284,7 @@ windowDef Desktop
 	}
 	windowDef quicksave_msg
 	{
-		rect	0,64,640,20
+		rect	-1,132,640,20
 		visible	0
 		forecolor	1,1,1,1
 		text	"#str_200908"
@@ -2320,7 +2324,7 @@ windowDef Desktop
 	}
 	windowDef fade
 	{
-		rect	0,0,640,480
+		rect	-1,-2,640,480
 		backcolor	0,0,0,0
 		visible	1
 	}
