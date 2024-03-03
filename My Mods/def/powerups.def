@@ -22,6 +22,8 @@ entityDef powerup_types
 	"powerup_team_ammo_regen"	"13"
 	"powerup_team_health_regen"	"14"
 	"powerup_team_damage_mod"	"15"
+	"powerup_freeze"			"16"
+	"powerup_poison"			"17"
 }
 
 entityDef powerup
